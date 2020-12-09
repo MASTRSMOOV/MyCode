@@ -1,0 +1,20 @@
+#!/usr/bin/env python3
+
+# 
+import shutil
+import os
+
+#
+os.chdir('/home/student/mycode/')
+
+#
+shutil.move('raynor.obj', 'ceph_storage/')
+
+# prompt the user for a new name
+xname = input('What is the new name for kerrigan.obj? ')
+
+# rename the file
+shutil.move('ceph_storage/kerrigan.obj', 'ceph_storage/' + xname)
+
+# The following line will rename a file
+
