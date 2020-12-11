@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 
 #ask user for their name
-def namecatcher():
-    input("name")
-    print("hello " + input)
+def namecatcher(name):
+    input("name?")
+    print(f"hello" name)  
      
-namecatcher()    
+namecatcher(name)    
 
 
